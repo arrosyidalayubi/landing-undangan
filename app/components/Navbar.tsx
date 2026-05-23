@@ -57,13 +57,13 @@ export default function Navbar() {
             {/* Tombol Desktop Login/Register */}
             <div className="hidden sm:flex items-center space-x-4">
               <Link 
-                href="https://dashboard.undangin.com/login" 
+                href="https://app.komfakdish.web.id/login" 
                 className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-bold transition-colors"
               >
                 Masuk
               </Link>
               <Link 
-                href="https://dashboard.undangin.com/register" 
+                href="https://app.komfakdish.web.id/register" 
                 className="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2.5 rounded-full font-bold shadow-lg shadow-indigo-200 dark:shadow-none transition-all active:scale-95"
               >
                 Buat Undangan
@@ -102,8 +102,8 @@ export default function Navbar() {
           
           <hr className="border-slate-100 dark:border-slate-800 my-2" />
           
-          <Link onClick={() => setIsMobileMenuOpen(false)} href="https://dashboard.undangin.com/login" className="block text-slate-600 dark:text-slate-300 font-bold">Masuk Dashboard</Link>
-          <Link onClick={() => setIsMobileMenuOpen(false)} href="https://dashboard.undangin.com/register" className="block text-center bg-indigo-600 text-white px-5 py-3 rounded-xl font-bold">Buat Undangan Gratis</Link>
+          <Link onClick={() => setIsMobileMenuOpen(false)} href="https://app.komfakdish.web.id/login" className="block text-slate-600 dark:text-slate-300 font-bold">Masuk Dashboard</Link>
+          <Link onClick={() => setIsMobileMenuOpen(false)} href="https://app.komfakdish.web.id/register" className="block text-center bg-indigo-600 text-white px-5 py-3 rounded-xl font-bold">Buat Undangan Gratis</Link>
         </div>
       </div>
     </nav>

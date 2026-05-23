@@ -31,7 +31,7 @@ export default function Pricing() {
               <li className="flex items-center gap-3 text-slate-400 opacity-60"><span className="text-slate-300">✖️</span> Unduh Data RSVP (Excel)</li>
             </ul>
             
-            <Link href="https://dashboard.undangin.com/register" className="w-full text-center bg-slate-100 hover:bg-slate-200 text-slate-900 font-bold py-4 rounded-xl transition-colors">
+            <Link href="https://app.komfakdish.web.id/register" className="w-full text-center bg-slate-100 hover:bg-slate-200 text-slate-900 font-bold py-4 rounded-xl transition-colors">
               Mulai Gratis
             </Link>
           </div>
@@ -58,7 +58,7 @@ export default function Pricing() {
               <li className="flex items-center gap-3 text-slate-200"><span className="text-indigo-400">✔️</span> Prioritas Bantuan Pelanggan</li>
             </ul>
             
-            <Link href="https://dashboard.undangin.com/register?plan=premium" className="w-full text-center bg-linear-to-r from-indigo-600 to-rose-500 hover:from-indigo-500 hover:to-rose-400 text-white font-bold py-4 rounded-xl shadow-lg transition-all active:scale-95">
+            <Link href="https://app.komfakdish.web.id/register?plan=premium" className="w-full text-center bg-linear-to-r from-indigo-600 to-rose-500 hover:from-indigo-500 hover:to-rose-400 text-white font-bold py-4 rounded-xl shadow-lg transition-all active:scale-95">
               Upgrade ke Premium
             </Link>
           </div>

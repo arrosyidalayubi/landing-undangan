@@ -29,7 +29,7 @@ export default function Footer() {
               <li><Link href="#tema" className="hover:text-white transition-colors">Katalog Desain</Link></li>
               <li><Link href="#harga" className="hover:text-white transition-colors">Harga Paket</Link></li>
               <li><Link href="/blog" className="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Blog</Link></li>
-              <li><Link href="https://dashboard.undangin.com/register" className="hover:text-white transition-colors">Buat Undangan</Link></li>
+              <li><Link href="https://app.komfakdish.web.id/register" className="hover:text-white transition-colors">Buat Undangan</Link></li>
             </ul>
           </div>
 

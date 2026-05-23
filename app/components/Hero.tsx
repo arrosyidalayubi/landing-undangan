@@ -31,7 +31,7 @@ export default function Hero() {
         {/* Call to Actions */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
           <Link 
-            href="https://dashboard.undangin.com/register"
+            href="https://app.komfakdish.web.id/register"
             className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl transition-all active:scale-95 flex items-center justify-center gap-2"
           >
             Mulai Gratis Sekarang 🚀
