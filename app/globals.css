@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
-/* Opsional: Efek animasi kustom untuk background gradient di Hero */
+@custom-variant dark (&:where(.dark, .dark *, [data-theme="dark"], [data-theme="dark"] *));
+
 @keyframes blob {
   0% { transform: translate(0px, 0px) scale(1); }
   33% { transform: translate(30px, -50px) scale(1.1); }

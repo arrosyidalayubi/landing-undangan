@@ -23,14 +23,14 @@ const FEATURES = [
 
 export default function Features() {
   return (
-    <section id="fitur" className="py-24 bg-slate-50 relative overflow-hidden">
+    <section id="fitur" className="py-24 bg-slate-50 dark:bg-slate-900 transition-colors duration-300 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Header Seksi Fitur */}
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-indigo-600 font-bold tracking-wide uppercase text-sm mb-3">Kenapa Memilih Undang.in?</h2>
-          <h3 className="text-3xl md:text-4xl font-black text-slate-900 mb-6">Semua yang Anda butuhkan untuk undangan yang sempurna.</h3>
-          <p className="text-lg text-slate-600">Tinggalkan cara lama. Beralih ke undangan digital yang ramah lingkungan, efisien, dan penuh kesan mendalam.</p>
+          <h3 className="text-3xl md:text-4xl font-black mb-6">Semua yang Anda butuhkan untuk undangan yang sempurna.</h3>
+          <p className="text-lg text-slate-600 dark:text-slate-400">Tinggalkan cara lama. Beralih ke undangan digital yang ramah lingkungan, efisien, dan penuh kesan mendalam.</p>
         </div>
 
         {/* Grid Fitur */}

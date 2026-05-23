@@ -33,12 +33,12 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="py-24 bg-white">
+    <section id="faq" className="py-24 bg-white dark:bg-slate-950 transition-colors duration-300">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center mb-16">
           <h2 className="text-indigo-600 font-bold tracking-wide uppercase text-sm mb-3">Tanya Jawab</h2>
-          <h3 className="text-3xl font-black text-slate-900 mb-4">Pertanyaan yang Sering Diajukan</h3>
+          <h3 className="text-3xl font-black mb-4">Pertanyaan yang Sering Diajukan</h3>
           <p className="text-slate-600">Masih ragu? Temukan jawaban dari pertanyaan yang sering ditanyakan oleh klien kami.</p>
         </div>
 

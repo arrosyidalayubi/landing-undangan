@@ -5,6 +5,7 @@ import Features from '../app/components/Features';
 import ThemeCatalog from '../app/components/ThemeCatalog';
 import Pricing from '../app/components/Pricing';
 import FAQ from '../app/components/FAQ';
+import RecentBlog from '../app/components/RecentBlog';
 import Footer from '../app/components/Footer';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <ThemeCatalog />
       <Pricing />
       <FAQ />
+      <RecentBlog />
       <Footer />
     </main>
   );

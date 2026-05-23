@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative pt-24 pb-32 overflow-hidden bg-slate-50">
+    <section className="relative pt-24 pb-32 overflow-hidden text-slate-900 dark:text-white dark:bg-slate-950 bg-slate-50">
       {/* Ornamen Latar Belakang (Gradient Blobs) */}
       <div className="absolute top-0 left-1/2 w-full -translate-x-1/2 flex justify-center opacity-30 pointer-events-none">
         <div className="w-200 h-150 bg-linear-to-tr from-indigo-200 to-rose-100 rounded-full blur-3xl mix-blend-multiply opacity-70 animate-blob"></div>
@@ -16,7 +16,7 @@ export default function Hero() {
         </div>
 
         {/* Headline */}
-        <h1 className="text-5xl md:text-7xl font-black text-slate-900 tracking-tight mb-6 leading-tight">
+        <h1 className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white tracking-tight mb-6 leading-tight">
           Sebarkan Kabar Bahagiamu <br className="hidden md:block" />
           <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-600 to-rose-500">
             Dalam Hitungan Menit.
@@ -24,7 +24,7 @@ export default function Hero() {
         </h1>
 
         {/* Sub-headline */}
-        <p className="mt-4 text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="mt-4 text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
           Buat undangan pernikahan digital yang elegan, kelola daftar tamu, dan terima RSVP secara otomatis. Tanpa perlu keahlian coding.
         </p>
 

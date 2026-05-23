@@ -33,12 +33,12 @@ const CATALOG = [
 
 export default function ThemeCatalog() {
   return (
-    <section id="tema" className="py-24 bg-white border-b border-slate-100">
+    <section id="tema" className="py-24 bg-white dark:bg-slate-950 border-b border-slate-100 dark:border-slate-800/50 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-indigo-600 font-bold tracking-wide uppercase text-sm mb-3">Katalog Tema</h2>
-          <h3 className="text-3xl md:text-4xl font-black text-slate-900 mb-6">Desain Mewah untuk Momen Bersejarah.</h3>
+          <h3 className="text-3xl md:text-4xl font-black mb-6">Desain Mewah untuk Momen Bersejarah.</h3>
           <p className="text-lg text-slate-600">Pilih template yang paling mencerminkan kepribadian Anda dan pasangan. Data akan otomatis menyesuaikan dengan desain yang dipilih.</p>
         </div>
 

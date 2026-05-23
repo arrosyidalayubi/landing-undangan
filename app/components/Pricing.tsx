@@ -2,12 +2,12 @@ import Link from 'next/link';
 
 export default function Pricing() {
   return (
-    <section id="harga" className="py-24 bg-slate-50">
+    <section id="harga" className="py-24 text-slate-900 dark:text-white dark:bg-slate-950 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-indigo-600 font-bold tracking-wide uppercase text-sm mb-3">Paket Harga</h2>
-          <h3 className="text-3xl md:text-4xl font-black text-slate-900 mb-6">Investasi Kecil, Memori Abadi.</h3>
+          <h3 className="text-3xl md:text-4xl font-black mb-6">Investasi Kecil, Memori Abadi.</h3>
           <p className="text-lg text-slate-600">Mulai secara gratis, atau tingkatkan ke paket premium untuk fitur eksklusif tanpa batas.</p>
         </div>
 
@@ -15,10 +15,10 @@ export default function Pricing() {
           
           {/* Paket Basic (Gratis) */}
           <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 flex flex-col">
-            <h4 className="text-2xl font-bold text-slate-900 mb-2">Basic</h4>
+            <h4 className="text-2xl font-bold mb-2">Basic</h4>
             <p className="text-slate-500 mb-6">Cocok untuk undangan sederhana yang elegan.</p>
             <div className="mb-8">
-              <span className="text-5xl font-black text-slate-900">Rp0</span>
+              <span className="text-5xl font-black">Rp0</span>
               <span className="text-slate-500 font-medium"> / selamanya</span>
             </div>
             

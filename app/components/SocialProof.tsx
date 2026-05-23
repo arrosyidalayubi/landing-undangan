@@ -1,6 +1,6 @@
 export default function SocialProof() {
   return (
-    <section className="py-12 border-b border-slate-100 bg-white">
+    <section className="py-12 border-b border-slate-100 dark:border-slate-800/50 bg-white dark:bg-slate-950 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-8">
           Dipercaya oleh 5.000+ Pasangan Bahagia di Seluruh Indonesia
