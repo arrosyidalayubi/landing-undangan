@@ -63,10 +63,10 @@ export default async function BlogDetailPage({ params }: Props) {
           <p className="text-xs font-bold text-indigo-600 uppercase tracking-widest mb-3">
             Diterbitkan pada {new Date(post.date).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })}
           </p>
-          <h1 className="text-3xl md:text-5xl font-black text-slate-900 tracking-tight leading-tight mb-6">
+          <h1 className="text-3xl md:text-5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight mb-6">
             {post.title}
           </h1>
-          <p className="text-xl text-slate-600 font-medium leading-relaxed italic">
+          <p className="text-xl text-slate-600 dark:text-white font-medium leading-relaxed italic">
             {post.description}
           </p>
         </header>
@@ -76,7 +76,7 @@ export default async function BlogDetailPage({ params }: Props) {
         </div>
 
         <article 
-          className="prose prose-indigo max-w-none text-slate-800 leading-relaxed space-y-6
+          className="prose prose-indigo max-w-none text-slate-800 dark:text-white leading-relaxed space-y-6
             prose-headings:font-black prose-headings:text-slate-900 prose-headings:tracking-tight
             prose-h2:text-2xl prose-h3:text-xl prose-p:text-base
             prose-ul:list-disc prose-ul:pl-6 prose-ol:list-decimal prose-ol:pl-6"
